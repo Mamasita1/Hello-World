@@ -1,0 +1,537 @@
+__bionic_open_tzdata: couldn't find any tzdata when looking for Asia/Singapore!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+Starting recovery on Thu Oct  8 16:33:55 1970
+E:unknown volume for path [/data]
+I:ensure_path_mounted: path[/data]
+E:unknown volume for path [/data]
+[ensure_property_get] /data mount failed
+recovery filesystem table
+=========================
+  0 /tmp ramdisk (null) (null) 0
+  1 /modem emmc /dev/block/bootdevice/by-name/modem (null) 0
+  2 /sbl1 emmc /dev/block/bootdevice/by-name/sbl1 (null) 0
+  3 /rpm emmc /dev/block/bootdevice/by-name/rpm (null) 0
+  4 /tz emmc /dev/block/bootdevice/by-name/tz (null) 0
+  5 /modem_st1 emmc /dev/block/bootdevice/by-name/modemst1 (null) 0
+  6 /modem_st2 emmc /dev/block/bootdevice/by-name/modemst2 (null) 0
+  7 /static_nv_bk emmc /dev/block/bootdevice/by-name/oppostanvbk (null) 0
+  8 /oppodycnvbk emmc /dev/block/bootdevice/by-name/oppodycnvbk (null) 0
+  9 /aboot emmc /dev/block/bootdevice/by-name/aboot (null) 0
+  10 /boot emmc /dev/block/bootdevice/by-name/boot (null) 0
+  11 /system ext4 /dev/block/bootdevice/by-name/system (null) 0
+  12 /data ext4 /dev/block/bootdevice/by-name/userdata (null) -16384
+  13 /cache ext4 /dev/block/bootdevice/by-name/cache (null) 0
+  14 /misc emmc /dev/block/bootdevice/by-name/misc (null) 0
+  15 /recovery emmc /dev/block/bootdevice/by-name/recovery (null) 0
+  16 /logo emmc /dev/block/bootdevice/by-name/LOGO (null) 0
+  17 /reserve4 emmc /dev/block/bootdevice/by-name/reserve4 (null) 0
+  18 /driver emmc /dev/block/bootdevice/by-name/DRIVER (null) 0
+  19 /external_sd vfat /dev/block/mmcblk1p1 /dev/block/mmcblk1 0
+  20 /sdcard ext4 /dev/block/bootdevice/by-name/sdcard /dev/block/mmcblk0 0
+
+I:ensure_path_mounted: path[/cache/recovery/last_log]
+I:ensure_path_mounted: path[/cache/recovery/command]
+I:Got arguments from /cache/recovery/command
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo.c]main_ui_init:103::Initializing...
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_ui_config:2462::stat file error, file is not exist
+(4294937668 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(.)
+(4294937668 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(..)
+(4294937668 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event6)
+remote device: /dev/input/event6 not found
+remove device 1: /dev/input/event5
+remove device 1: /dev/input/event4
+remove device 1: /dev/input/event2
+remove device 1: /dev/input/event1
+remove device 1: /dev/input/event0
+could not get driver version for /dev/input/mice, Not a typewriter
+remote device: /dev/input/mice not found
+remove device 1: /dev/input/event3
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:267::accelerometer found at /dev/input/event3 
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=0
+
+DEVICE NAME: qpnp_pon - /sys/board_properties/virtualkeys.qpnp_pon
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event5)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=1
+
+DEVICE NAME: proximity - /sys/board_properties/virtualkeys.proximity
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event4)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=2
+
+DEVICE NAME: light - /sys/board_properties/virtualkeys.light
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event2)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=3
+
+DEVICE NAME: compass - /sys/board_properties/virtualkeys.compass
+EV ST: minX: -32768  maxX: 32767  minY: -32768  maxY: 32767
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event1)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=4
+
+DEVICE NAME: synaptics-s3203-kpd - /sys/board_properties/virtualkeys.synaptics-s3203-kpd
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event0)
+(pid:235)function event_filter(line 193) cause i > 0 failed  return 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=5
+
+DEVICE NAME: synaptics-s3203 - /sys/board_properties/virtualkeys.synaptics-s3203
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 1100  minY: 0  maxY: 1745
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(mice)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event3)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:252::de->d_name(event7)
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/input_device.c]aipInit:307::_aip->n=6
+
+DEVICE NAME: gpio-keys - /sys/board_properties/virtualkeys.gpio-keys
+EV ST: minX: 0  maxX: 0  minY: 0  maxY: 0
+EV MT: minX: 0  maxX: 0  minY: 0  maxY: 0
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]ag_init:344::function ag_init entry
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]ag_init:359::ag_dp=4, ag_fbf.smem_len=7536640, ag_fbf.line_length=2944
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]ag_init:369::ag_fbv.bits_per_pixel = 32 agclp=4, sz_fb_kernel=3768320
+(4294937674 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]ag_init:371::ag_fbv.red.offset=0, ag_fbv.green.offset=8, ag_fbv.blue.offset=16
+(4294937676 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_input.c]ev_input_thread:158::start...
+(4294937706 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]ag_init:452::ag_32=1, ag_16strd=0
+oppo/s: Opening Freetype
+(4294937706 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_freetype.c]aft_open:536::function aft_open entry...
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=0, path(themes/oppo/titlebg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=1, path(themes/oppo/progress_bg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=2, path(themes/oppo/progress_fg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=3, path(themes/oppo/install_progress_bg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=4, path(themes/oppo/install_progress_fg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=5, path(themes/oppo/list_bg.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=6, path(themes/oppo/list_bg.select.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=7, path(themes/oppo/list_line.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=8, path(themes/oppo/button_focus.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/controls/oppo_controls.c]atheme_create:122::id=9, path(themes/oppo/button.9)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.winbg), cl[0]=0xf79e, val(#f2f2f2)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.selectbg), cl[0]=0xef5d, val(#ebebeb)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_title), cl[0]=0x4a69, val(#4e4f4c)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_menu), cl[0]=0x5acb, val(#585858)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_select), cl[0]=0xcc9, val(#0b984c)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_version), cl[0]=0xa534, val(#a1a6a4)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_pic_tit), cl[0]=0x4a69, val(#4e4f4c)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_pic_desc), cl[0]=0xc618, val(#c0c0c0)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.menuline_top), cl[0]=0xbe18, val(#bac2c2)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.menuline_bot), cl[0]=0xffff, val(#ffffff)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.title_line), cl[0]=0xcc9, val(#0b984c)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.border), cl[0]=0x0, val(#000000)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.statusbg), cl[0]=0x1082, val(#111111)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.txt_status), cl[0]=0xffff, val(#ffffff)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.installbg), cl[0]=0x0, val(#000000)
+(4294937707 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_setthemecolor:462::key(color.installtxt), cl[0]=0x5acb, val(#595959)
+(4294937708 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]refresh_thread:660::in
+(4294937708 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_graph.c]status_thread:741::start...
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_ui_config:2462::stat file error, file is not exist
+(4294937708 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo.c]tree_init:53::tree_init entery
+intent_system: start ..... cmd(/data/media/0)
+I:ensure_path_mounted: path[/data/media/0]
+intent_system: end result(0)
+intent_system: start ..... cmd(/external_sd)
+I:ensure_path_mounted: path[/external_sd]
+intent_system: end result(0)
+(4294937749 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/sd_ui.c]sd_ui_init:188::result_inter_sd=0, result_external_sd=0
+[ensure_property_get] persist.sys.root.state is .
+persist.sys.root.state is  
+I:ensure_path_mounted: path[/system]
+oppo/e: Read 33 char is: 4f1c1b6f4c5bccee211cbd4bb7cd74fb
+oppo/e: Read 33 char is: 4f1c1b6f4c5bccee211cbd4bb7cd74fb
+I:ensure_path_unmounted: path[/system]
+[ensure_property_get] persist.sys.oppo.region is SG.
+(4294937847 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_freetype.c]aft_load:523::(1) Freetype fonts loaded as Font Family
+(4294937848 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/libs/oppo_freetype.c]aft_load:523::(1) Freetype fonts loaded as Font Family
+(4294937848 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo.c]main_ui_init:140::ag_fontheight(1)=36, ag_fontheight(0)=25
+[ensure_property_get] persist.sys.oppo.region is SG.
+Command: "/sbin/recovery" "--update_package=/cache/update.zip"Daclean j = 16 "--locale=en_GB"
+
+av.offload.enable=true
+mm.enable.qcom_parser=3314291
+mm.enable.smoothstreaming=true
+ro.fm.transmitter=false
+ro.qc.sdk.audio.ssr=false
+ro.qc.sdk.audio.fluencetype=none
+ro.sf.lcd_density=320
+ro.adb.qemud=1
+ro.adb.secure=1
+ro.com.google.gmsversion=5.1_r3
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=true
+ro.frp.pst=/dev/block/bootdevice/by-name/config
+ro.gps.agps_provider=1
+ro.pip.gated=0
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.sys.fw.bservice_age=5000
+ro.sys.fw.bservice_limit=5
+ro.sys.fw.bservice_enable=true
+ro.sys.fw.empty_app_percent=50
+ro.sys.fw.use_trim_settings=true
+ro.sys.fw.trim_cache_percent=100
+ro.sys.fw.trim_empty_percent=100
+ro.sys.fw.trim_enable_memory=1073741824
+ro.sys.fw.dex2oat_thread_count=4
+ro.sys.usb.default.config=diag,serial_smd,rmnet_bam,adb
+ro.sys.full_disk_ecryption=true
+ro.boot.emmc=true
+ro.boot.mode=recovery
+ro.boot.console=ttyHSL0
+ro.boot.baseband=msm
+ro.boot.hardware=qcom
+ro.boot.serialno=ee1fd67a
+ro.boot.bootdevice=7824900.sdhci
+ro.boot.startupmode=unknow
+ro.boot.authorized_kernel=true
+ro.oppo.build.exp=US
+ro.oppo.theme.version=800
+ro.oppo.version=US
+ro.wifi.channels=
+ro.allow.mock.location=0
+ro.board.platform=msm8916
+ro.build.id=LMY47V
+ro.build.ota.versionname=A37fEX_11_170701
+ro.build.date=Sat Jul  1 11:31:46 CST 2017
+ro.build.date.Ymd=170701
+ro.build.date.utc=1498879906
+ro.build.date.ymd=170701
+ro.build.date.YmdHM=201707011131
+ro.build.host=ubuntu-122-192
+ro.build.soft.version=A.23
+ro.build.soft.majorversion=
+ro.build.tags=release-keys
+ro.build.type=user
+ro.build.user=root
+ro.build.flavor=msm8916_64-user
+ro.build.kernel.id=3.10.28-G201707010938
+ro.build.display.id=A37fEX_11_170701
+ro.build.display.full_id=A37fEX_11_A.23_170701
+ro.build.product=A37f
+ro.build.version.ota=A37fEX_11.A.23_INT_023_201707010938
+ro.build.version.sdk=22
+ro.build.version.opporom=V3.0.0i
+ro.build.version.release=5.1.1
+ro.build.version.codename=REL
+ro.build.version.incremental=1480422943
+ro.build.version.all_codenames=REL
+ro.build.version.security_patch=2017-06-01
+ro.build.description=msm8916_64-user 5.1.1 LMY47V eng.root.20170701.113014 release-keys
+ro.build.release_type=true
+ro.build.characteristics=nosdcard
+ro.dirac.config=2
+ro.dirac.poolsize=6
+ro.dirac.max_active.headset=5
+ro.dirac.max_active.powersound=3
+ro.common.soft=MSM_15399
+ro.config.ringtone=ringtone_001.ogg
+ro.config.alarm_alert=alarm_001.ogg
+ro.config.ringtone_sim2=ringtone_001.ogg
+ro.config.calendar_sound=notification_003.ogg
+ro.config.notification_sim2=notification_001.ogg
+ro.config.notification_sound=notification_001.ogg
+ro.dalvik.vm.native.bridge=0
+ro.secure=1
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.zygote=zygote64_32
+ro.carrier=unknown
+ro.product.cpu.abi=arm64-v8a
+ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=arm64-v8a
+ro.product.name=A37f
+ro.product.board=msm8916
+ro.product.brand=OPPO
+ro.product.model=A37f
+ro.product.locale.region=US
+ro.product.locale.language=en
+ro.product.manufacturer=OPPO
+ro.baseband=msm
+ro.bootmode=recovery
+ro.hardware=qcom
+ro.opengles.version=196608
+ro.qualcomm.cabl=0
+ro.revision=0
+ro.serialno=ee1fd67a
+ro.telephony.default_network=9,1
+ro.xxversion=v0.5
+ro.bootloader=unknown
+ro.debuggable=0
+ro.rf_version=W_G_L_15399
+ro.wandrfmode=0
+ro.factorytest=0
+ro.setupwizard.mode=OPTIONAL
+ro.core_ctl_max_cpu=4
+ro.core_ctl_min_cpu=2
+ro.use_data_netmgrd=true
+ro.dex2oat_white_list=com.google.android.gms:
+dev.pm.dyn_samplingrate=1
+drm.service.enabled=true
+mmp.enable.3g2=true
+net.bt.name=Android
+net.change=net.bt.name
+ril.subscription.types=NV,RUIM
+sys.hwc.gpu_perf_mode=1
+use.voice.path.for.pcm.voip=true
+init.svc.healthd=running
+init.svc.ueventd=running
+init.svc.recovery=running
+rild.libargs=-d /dev/smd0
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+vidc.enc.narrow.searchrange=0
+audio.dolby.ds2.enabled=true
+audio.offload.min.duration.secs=30
+audio.offload.buffer.size.kb=64
+audio.offload.gapless.enabled=true
+debug.sf.hw=0
+debug.egl.hw=0
+debug.enable.sglscale=1
+debug.cpurend.vsync=true
+debug.mdpcomp.logs=0
+debug.mdpcomp.idletime=600
+media.msm8929hw=0
+media.msm8939hw=0
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-scan=true
+media.stagefright.use-awesome=false
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-player=true
+media.aac_51_output_enabled=true
+voice.voip.conc.disabled=false
+voice.record.conc.disabled=false
+voice.playback.conc.disabled=true
+dalvik.vm.isa.arm.features=div
+dalvik.vm.isa.arm64.features=div,needfix_835769
+dalvik.vm.heapsize=512m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.heaptargetutilization=0.75
+tunnel.audio.encode=false
+camera2.portability.force_api=1
+persist.cne.feature=1
+persist.dpm.feature=3
+persist.gps.qc_nlp_in_use=1
+persist.hwc.mdpcomp.enable=true
+persist.hwc.enable_vds=1
+persist.loc.nlp_name=com.qualcomm.location
+persist.sys.ui.hw=false
+persist.sys.adb.engineermode=0
+persist.sys.cnd.iwlan=1
+persist.sys.net=no
+persist.sys.usb.config=mass_storage
+persist.sys.usb.config.extra=none
+persist.sys.dial.enable=true
+persist.sys.dpmd.nsrm=3
+persist.sys.dump=0
+persist.sys.mute.state=2
+persist.sys.oppo.region=SG
+persist.sys.oppo.region.netlock=0
+persist.sys.oppo.dragstate=0
+persist.sys.oppo.usbactive=true
+persist.sys.oppo.screendrag=0,0,0,0.0
+persist.sys.oppo.otg_support=false
+persist.sys.oppo.displaymetrics=720,1280
+persist.sys.media.use-awesome=false
+persist.sys.modem=no
+persist.sys.panic.file=
+persist.sys.power.log=true
+persist.sys.quick.REBOOT=1504470689951;1;25000
+persist.sys.assert.panic=true
+persist.sys.assert.state=false
+persist.sys.camera.rgbParams=2
+persist.sys.dalvik.vm.lib.2=libart.so
+persist.sys.mobile=yes
+persist.sys.serial.enable=true
+persist.sys.window.log=true
+persist.sys.country=GB
+persist.sys.headset.plugged=1
+persist.sys.webview.vmsize=104857600
+persist.sys.activity.log=true
+persist.sys.cfu_auto=1
+persist.sys.fastdorm.enabled=true
+persist.sys.language=en
+persist.sys.timezone=Asia/Singapore
+persist.sys.localevar=
+persist.sys.panictime=0
+persist.sys.wipemedia=0
+persist.sys.adddevdiag=1
+persist.sys.allcommode=true
+persist.sys.oem_smooth=1
+persist.sys.permission.enable=true
+persist.sys.poweralarm.time=1505253602000
+persist.sys.screenshot.times=3
+persist.sys.strictmode.visual=
+persist.sys.firstlaunch=false
+persist.sys.profiler_ms=0
+persist.sys.powerkeydump=0
+persist.sys.poweronsound=1
+persist.sys.savetosdcard=true
+persist.sys.systemserver.pid=1165
+persist.sys.hdcp_checking=false
+persist.sys.poweroffsound=1
+persist.sys.startupmanager=false
+persist.sys.device_first_boot=0
+persist.data.netmgrd.qos.enable=true
+persist.demo.hdmirotationlock=false
+persist.logd.size=
+persist.oppo.signal=4000
+persist.oppo.ctsversion=false
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.voicecall=true
+persist.debug.wfd.enable=1
+persist.debug.trace=1
+persist.media.hls.enhancements=false
+persist.power.useautobrightadj=true
+persist.radio.eons.enabled=false
+persist.radio.msim.stackid_0=0
+persist.radio.msim.stackid_1=1
+persist.radio.rat_on=legacy
+persist.radio.ramdump=0
+persist.radio.multisim.config=dsds
+persist.radio.adb_log_on=0
+persist.radio.force_on_dc=true
+persist.radio.lte_vrte_ltd=1
+persist.radio.imsallowmtsms=0
+persist.radio.sib16_support=1
+persist.radio.custom_exp_ecc=1
+persist.radio.imsregrequired=0
+persist.radio.ril_payload_on=0
+persist.radio.sap_silent_pin=true
+persist.radio.apm_sim_not_pwdn=1
+persist.timed.enable=true
+persist.service.adb.enable=
+persist.service.bdroid.bdaddr=22:22:71:66:3b:da
+persist.version.confidential=false
+persist.boot_time=6
+persist.fuse_sdcard=true
+keyguard.no_require_sim=true
+bluetooth.hfp.client=1
+telephony.lteOnCdmaDevice=1
+DEVICE_PROVISIONED=1
+
+I:ensure_path_mounted: path[/cache]
+OPTIONS:wipe data.
+I:ensure_path_unmounted: path[/system]
+W:Decryption: ret of check_footer = -1
+Error getting crypt footer and key
+W:Decryption: ret of password_type = -1
+encrypted fs already validated or not running with encryption, aborting
+Error getting crypt footer and key
+W:Decryption with default password: ret = -1
+I:ensure_path_mounted: path[/external_sd]
+E:this is new recovery changed by azx
+I:ensure_path_mounted: path[/cache]
+I:ensure_path_unmounted: path[/system]
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/sd_ui.c]sd_path_verify:263::sdpath(/cache/update.zip) auto_install=1
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/sd_ui.c]sd_path_verify:321::end...  sdpath(/cache/update.zip)
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_install:2326::start....
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.000000
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppo_install_package:62::start .....
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppo_install_package:65::start install package
+I:ensure_path_mounted: path[/tmp/last_install]
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_progressthread:2252::start .....
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_progressthread:2257::Daclean -----------------tmp value:(0)	 prog_percent value:(0),current time is: Thu Oct  8 16:33:57 1970
+
+(pid:235)[vendor/oppo/apps/oppo-recovery/install.c]install_package:800::Daclean 2 package size = 2924141
+Finding update package...
+I:Update location: /cache/update.zip
+I:ensure_path_mounted: path[/cache/update.zip]
+Opening update package...
+I:read key e=65537 hash=20
+I:1 key(s) loaded from /res/keys
+Verifying update package...
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_show_progress:127::portion=0.100000, seconds=20
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_show_progress:139::++++++++++++++++++++++++++gSpeed:(0.005000)
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.000000
+I:comment is 1513 bytes; signature 1495 bytes from end
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.001401
+(4294937849 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.022424
+(4294937850 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.043446
+(4294937850 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.064468
+(4294937851 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.085490
+(4294937851 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.106512
+(4294937851 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.127535
+(4294937851 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.148557
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_process_disp_single:2187::Daclean remainingtime = 2
+(4294937853 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.169579
+(4294937853 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.190601
+(4294937853 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.211623
+(4294937853 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.232646
+(4294937855 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.253668
+(4294937855 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.274690
+(4294937855 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.295712
+(4294937855 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.316734
+(4294937855 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.337757
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+(4294937858 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.358779
+(4294937858 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.379801
+(4294937858 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.400823
+(4294937859 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.421845
+(4294937859 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.442867
+(4294937859 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.463890
+(4294937859 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.484912
+(4294937860 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.505934
+(4294937860 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.526956
+(4294937861 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.547978
+(4294937861 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.569001
+(4294937861 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.590023
+(4294937861 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.611045
+(4294937861 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.632067
+(4294937863 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.653089
+(4294937863 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.674112
+(4294937863 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.695134
+(4294937864 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.716156
+(4294937864 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.737178
+(4294937864 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.758200
+(4294937865 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.779223
+(4294937865 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.800245
+(4294937865 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.821267
+(4294937865 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.842289
+(4294937866 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.863311
+(4294937866 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.884333
+(4294937866 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.905356
+(4294937866 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.926378
+(4294937867 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.947400
+(4294937867 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.968422
+(4294937867 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppoInstall_set_progress:146::fraction=0.989444
+I:whole-file signature verified against key 0
+I:verify_file returned 0
+check_downgrade_update start
+check_downgrade_update return 4
+check_downgrade_update local_ota_pre=A37fEX_11.A,target_ota_pre=FIND7New_12.A
+check_downgrade_update return 6
+(4294937867 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_installer.c]oppo_install_package:94::end ret=6
+(4294937887 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_progressthread:2257::Daclean -----------------tmp value:(10)	 prog_percent value:(0),current time is: Thu Oct  8 16:33:57 1970
+
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_process_disp_single:2187::Daclean remainingtime = 2
+(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]install_progressthread:2308::end .....
+(4294937991 ticks)(pid:235)[vendor/oppo/apps/oppo-recovery/oppo/src/main/oppo_ui.c]oppo_install:2348::end....  ret(6)
+I:ensure_path_mounted: path[/cache/recovery/intent]
+Installation aborted.
+I:ensure_path_mounted: path[/cache/recovery/log]
+I:ensure_path_mounted: path[/cache/recovery/last_log]
+I:ensure_path_mounted: path[/cache/recovery/last_install]
+I:ensure_path_mounted: path[/data/media/0/oppo_log/last_log]
